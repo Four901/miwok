@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+
+        style="@style/each_theme"
+        android:text="@string/act1"/>
+      <!--  android:onClick="Numbers_checkout" -->
+
+     <!--/>-->
+    <Button
+        android:layout_width="match_parent"
+        style="@style/each_theme"
+        android:id="@+id/colors"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:text="@string/act2" />
+       <!-- android:onClick="Colors_checkout"-->
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/each_theme"
+        android:id="@+id/family_members"
+        android:textAlignment="center"
+
+        android:layout_weight="1"
+        android:text="@string/act3" />
+       <!-- android:onClick="FamilyMembers_checkout"-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:id="@+id/phrases"
+        style="@style/each_theme"
+        android:layout_weight="1"
+        android:text="@string/act4" />
+        <!--android:onClick="Phrases_checkout"-->
+
+
+</LinearLayout>
